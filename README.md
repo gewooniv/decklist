@@ -48,7 +48,6 @@
 
 This project was created in preparation for a job interview. It was created with no previous knowledge of creating Android apps or writing in Kotlin. I enjoyed creating it in about three days and look forward to working with Android studio in the future.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ### Built With
@@ -57,7 +56,6 @@ This project was created in preparation for a job interview. It was created with
 * [![Jetpack_compose]][Jetpack_compose-url]
 * [![Deck_of_cards]][Deck_of_cards-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -71,7 +69,6 @@ This project was created in preparation for a job interview. It was created with
 
 See the [open issues](https://github.com/gewooniv/decklist/issues) for a full list of proposed features (and known issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
