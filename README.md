@@ -42,19 +42,46 @@
 </details>
 
 
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
 This project was created in preparation for a job interview. It was created with no previous knowledge of creating Android apps or writing in Kotlin. I enjoyed creating it in about three days and look forward to working with Android studio in the future.
 
+The assignment:
+
+Create a single-screen native Android application showcasing a list overview of a typical card deck, including numbered cards 2-10, Joker, Queen, King, and Ace for each suit (spade, clover, heart, or diamond). You have the creative freedom to design how each card is presented within the list.
+
+Requirements:
+1. Develop an Android app using Kotlin.
+2. Implement a single screen that displays a list of cards.
+3. Include cards for numbered values 2-10, Joker, Queen, King, and Ace for each suit.
+4. Feel free to pick in which order the cards are presented on the list .
+5. Use your creativity to design the user interface to present each card distinctly within the list.
+
+
+
+
+## Description
+
+The app consists of three swipeable pages.
+
+The first page is an overview of all cards, with images, of a deck of playing cards. A search function has been added, where one or more cards can be searched in several ways.
+
+The second page is a list of cards. These can be rearranged by pressing down briefly. The idea is that when the app is used for, for example, a Trading Card Game, a fixed composition of cards can be stored here.
+
+The last page is an about page. Here you can find information about me.
 
 
 ### Built With
 
 * [![Android_studio]][Android_studio-url]
 * [![Jetpack_compose]][Jetpack_compose-url]
-* [![Deck_of_cards]][Deck_of_cards-url]
+
+- [ ] Retrofit
+Retrofit is a popular library for making network requests in Android apps. This is used to retrieve the cards via an API GET request from [Deck of Cards API](https://deckofcardsapi.com). 
+
+- [ ] Draggable list
+A draggable list was created using [Compose Reorderable](https://github.com/aclassen/ComposeReorderable). This is a Jetpack Compose modifier enabling reordering by drag and drop in a LazyList and LazyGrid.
 
 
 
@@ -62,10 +89,9 @@ This project was created in preparation for a job interview. It was created with
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Remove code from MainActivity without breaking the retrieval of items from the API
+- [ ] Improve list to make items clickable and show data
+- [ ] Improve list page with sorting, filter and sets
 
 See the [open issues](https://github.com/gewooniv/decklist/issues) for a full list of proposed features (and known issues).
 
@@ -80,6 +106,7 @@ Ivo Eijgenraam - gewooniv@gmail.com
 Project Link: [https://github.com/gewooniv/decklist](https://github.com/gewooniv/decklist)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
@@ -111,5 +138,3 @@ Project Link: [https://github.com/gewooniv/decklist](https://github.com/gewooniv
 [Android_studio-url]: https://developer.android.com/studio
 [Jetpack_compose]: https://img.shields.io/badge/JetpackCompose-20232A?style=for-the-badge&logo=android&logoColor=61DAFB
 [Jetpack_compose-url]: https://developer.android.com/jetpack/compose
-[Deck_of_cards]: https://img.shields.io/badge/DeckOfCards-DD0031?style=for-the-badge&logo=api&logoColor=white
-[Deck_of_cards-url]: https://deckofcardsapi.com
