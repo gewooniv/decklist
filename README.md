@@ -52,9 +52,9 @@ This project was created in preparation for a job interview. It was created with
 
 ### Built With
 
-* [![Android_studio][developer.android.com]][Android_studio-url]
-* [![Jetpack_compose][developer.android.com]][Jetpack_compose-url]
-* [![Deck_of_cards][developer.android.com]][Deck_of_cards-url]
+* [![Android_studio]][Android_studio-url]
+* [![Jetpack_compose]][Jetpack_compose-url]
+* [![Deck_of_cards]][Deck_of_cards-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
