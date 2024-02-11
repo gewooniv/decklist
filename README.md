@@ -74,8 +74,8 @@ The last page is an about page. Here you can find information about me.
 
 ### Built With
 
-* [![Android_studio]][Android_studio-url]
-* [![Jetpack_compose]][Jetpack_compose-url]
+[![Android_studio]][Android_studio-url]
+[![Jetpack_compose]][Jetpack_compose-url]
 
 Retrofit is a popular library for making network requests in Android apps. This is used to retrieve the cards via an API GET request from [Deck of Cards API](https://deckofcardsapi.com). 
 
