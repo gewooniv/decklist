@@ -77,10 +77,8 @@ The last page is an about page. Here you can find information about me.
 * [![Android_studio]][Android_studio-url]
 * [![Jetpack_compose]][Jetpack_compose-url]
 
-* Retrofit
 Retrofit is a popular library for making network requests in Android apps. This is used to retrieve the cards via an API GET request from [Deck of Cards API](https://deckofcardsapi.com). 
 
-* Draggable list
 A draggable list was created using [Compose Reorderable](https://github.com/aclassen/ComposeReorderable). This is a Jetpack Compose modifier enabling reordering by drag and drop in a LazyList and LazyGrid.
 
 
