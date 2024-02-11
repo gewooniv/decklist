@@ -1,27 +1,8 @@
 <a name="readme-top"></a>
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/gewooniv/decklist">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-<h3 align="center">Decklist</h3>
+  <a href="https://github.com/gewooniv/decklist"><h3 align="center">Decklist</h3></a>
 
   <p align="center">
     project_description
@@ -32,11 +13,8 @@
     <a href="https://github.com/gewooniv/decklist">View Demo</a>
     ·
     <a href="https://github.com/gewooniv/decklist/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/gewooniv/decklist/issues">Request Feature</a>
   </p>
 </div>
-
 
 
 <!-- TABLE OF CONTENTS -->
@@ -58,36 +36,25 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
 
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `gewooniv`, `decklist`, `twitter_handle`, `ivoeijgenraam`, `gmail`, `gewooniv`, `Decklist`, `project_description`
+This project was created in preparation for a job interview. It was created with no previous knowledge of creating Android apps or writing in Kotlin. I enjoyed creating it in about three days and look forward to working with Android studio in the future.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
 ### Built With
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [![Android_studio][developer.android.com]][Android_studio-url]
+* [![Jetpack_compose][developer.android.com]][Jetpack_compose-url]
+* [![Deck_of_cards][developer.android.com]][Deck_of_cards-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -152,33 +119,6 @@ See the [open issues](https://github.com/gewooniv/decklist/issues) for a full li
 
 
 
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- CONTACT -->
 ## Contact
 
@@ -215,4 +155,10 @@ Project Link: [https://github.com/gewooniv/decklist](https://github.com/gewooniv
 [license-url]: https://github.com/gewooniv/decklist/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/ivoeijgenraam
-[product-screenshot]: images/screenshot.png
+[Jetpack_compose]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=android&logoColor=61DAFB
+[Jetpack_compose-url]: https://developer.android.com/jetpack/compose
+[Android_studio]: https://img.shields.io/badge/AndroidStudio-563D7C?style=for-the-badge&logo=android&logoColor=white
+[Android_studio-url]: https://developer.android.com/studio
+[Deck_of_cards]: https://img.shields.io/badge/DeckOfCardsAPI-DD0031
+[Deck_of_cards-url]: https://deckofcardsapi.com
+
