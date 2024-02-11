@@ -155,10 +155,10 @@ Project Link: [https://github.com/gewooniv/decklist](https://github.com/gewooniv
 [license-url]: https://github.com/gewooniv/decklist/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/ivoeijgenraam
-[Jetpack_compose]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=android&logoColor=61DAFB
-[Jetpack_compose-url]: https://developer.android.com/jetpack/compose
 [Android_studio]: https://img.shields.io/badge/AndroidStudio-563D7C?style=for-the-badge&logo=android&logoColor=white
 [Android_studio-url]: https://developer.android.com/studio
-[Deck_of_cards]: https://img.shields.io/badge/DeckOfCardsAPI-DD0031?style=for-the-badge&logo=android&logoColor=61DAFB
+[Jetpack_compose]: https://img.shields.io/badge/JetpackCompose-20232A?style=for-the-badge&logo=android&logoColor=61DAFB
+[Jetpack_compose-url]: https://developer.android.com/jetpack/compose
+[Deck_of_cards]: https://img.shields.io/badge/DeckOfCards-DD0031?style=for-the-badge&logo=api&logoColor=white
 [Deck_of_cards-url]: https://deckofcardsapi.com
 
