@@ -19,7 +19,6 @@ import kotlinx.coroutines.launch
 
 @OptIn(FlowPreview::class)
 class MainViewModel : ViewModel() {
-
     // these states are used to reload the UI when the card data changes
     private val _cardState = mutableStateOf(CardState())
     val cardsState: State<CardState> = _cardState
@@ -28,32 +27,27 @@ class MainViewModel : ViewModel() {
     private val _searchText = MutableStateFlow("")
     val searchText = _searchText.asStateFlow()
 
-    private val _isSearching = MutableStateFlow(false )
+    private val _isSearching = MutableStateFlow(false)
     val isSearching = _isSearching.asStateFlow()
 
     private val _cards = MutableStateFlow(CardState().list)
 
-    val cards = searchText
-        .onEach { _isSearching.update{ true } }
+    val cards = searchText.onEach { _isSearching.update { true } }
         .debounce(500) // add delay before other blocks are executed
         .combine(_cards) { text, cards ->
-            if(text.isBlank()){
+            if (text.isBlank()) {
                 cards
             } else {
                 cards.filter {
                     it.doesMatchSearchQuery(text)
                 }
             }
-        }
-        .onEach { _isSearching.update{ false }  }
-        .stateIn(
-            viewModelScope,
-            SharingStarted.WhileSubscribed(5000),
-            _cards.value
+        }.onEach { _isSearching.update { false } }.stateIn(
+            viewModelScope, SharingStarted.WhileSubscribed(5000), _cards.value
         )
 
     // search
-    fun onSearchTextChange(text: String){
+    fun onSearchTextChange(text: String) {
         _searchText.value = text
     }
 
@@ -61,40 +55,31 @@ class MainViewModel : ViewModel() {
         fetchCards()
     }
 
-    private fun fetchCards(){
+    private fun fetchCards() {
         // provides launch for suspend functions
         viewModelScope.launch {
             try {
-
-//                // CardState
-//                val response = cardService.getCards() // call suspend function
-//                _cardState.value = _cardState.value.copy(
-//                    list = response.cards,
-//                    loading = false,
-//                    error = null
-//                )
-
-                // CardState.list
+                // CardState
                 val response = cardService.getCards() // call suspend function
-                _cards.value = response.cards
-
+                _cardState.value = _cardState.value.copy(
+                    list = response.cards, loading = false, error = null
+                )
+                // CardState.list
+                _cards.value = _cardState.value.list
                 _cards.value += jokers // manually add jokers
 
-            } catch (e: Exception){
+            } catch (e: Exception) {
                 // on error
                 _cardState.value = _cardState.value.copy(
-                    loading = false,
-                    error = "Error fetching Cards ${e.message}"
+                    loading = false, error = "Error fetching Cards ${e.message}"
                 )
             }
         }
     }
 
     data class CardState(
-        val loading: Boolean = true,
-        var list: List<Cards> = emptyList(),
-        val error: String? = null
-        )
+        val loading: Boolean = true, var list: List<Cards> = emptyList(), val error: String? = null
+    )
 }
 
 val jokers = listOf(
@@ -103,11 +88,13 @@ val jokers = listOf(
         "https://deckofcardsapi.com/static/img/X1.png",
         null,
         "JOKER",
-        "BLACK"),
+        "BLACK"
+    ),
     Cards(
         "X2",
         "https://deckofcardsapi.com/static/img/X2.png",
         null,
         "JOKER",
-        "RED"),
+        "RED"
+    ),
 )

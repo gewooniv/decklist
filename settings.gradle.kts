@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Decklist"
+rootProject.name = "decklist"
 include(":app")

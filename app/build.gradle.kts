@@ -80,5 +80,9 @@ dependencies {
     // displaying image
     implementation("io.coil-kt:coil-compose:2.4.0")
 
+    // dragging items
+    implementation("org.burnoutcrew.composereorderable:reorderable:0.9.6")
+
+
 
 }

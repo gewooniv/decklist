@@ -9,7 +9,7 @@ private val retrofit = Retrofit.Builder().baseUrl("https://www.deckofcardsapi.co
     .addConverterFactory(GsonConverterFactory.create())
     .build()
 
-    val cardService = retrofit.create(ApiService::class.java)
+    val cardService: ApiService = retrofit.create(ApiService::class.java)
 
 interface ApiService {
     @GET("deck/new/draw/?count=52")
