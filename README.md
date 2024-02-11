@@ -159,6 +159,6 @@ Project Link: [https://github.com/gewooniv/decklist](https://github.com/gewooniv
 [Jetpack_compose-url]: https://developer.android.com/jetpack/compose
 [Android_studio]: https://img.shields.io/badge/AndroidStudio-563D7C?style=for-the-badge&logo=android&logoColor=white
 [Android_studio-url]: https://developer.android.com/studio
-[Deck_of_cards]: https://img.shields.io/badge/DeckOfCardsAPI-DD0031
+[Deck_of_cards]: https://img.shields.io/badge/DeckOfCardsAPI-DD0031?style=for-the-badge&logo=android&logoColor=61DAFB
 [Deck_of_cards-url]: https://deckofcardsapi.com
 
