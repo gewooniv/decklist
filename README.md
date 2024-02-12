@@ -1,5 +1,4 @@
 <a name="readme-top"></a>
-
 <br />
 <div align="center">
   <a href="https://github.com/gewooniv/decklist"><h3 align="center">Decklist</h3></a>
