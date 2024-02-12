@@ -9,7 +9,7 @@
     <a href="https://github.com/gewooniv/decklist"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="#demo">View Demo</a>
+    <a href="https://github.com/gewooniv/decklist">View Demo</a>
     ·
     <a href="https://github.com/gewooniv/decklist/issues">Report Bug</a>
   </p>
@@ -64,14 +64,16 @@ Requirements:
 
 The app consists of three pages. These can be browsed by swiping the screen or selecting one of the tabs in the top side of the screen. 
 
-The first page is an overview of all cards, with images, of a deck of playing cards. A search function has been added, where one or more cards can be searched in several ways. All the data and images are retrieved from the API and therefor not stored in the app. This opens the door to easily switch from a deck of playing cards, to other items. 
+The first page is an overview of all cards, with images, of a deck of playing cards. A search function has been added, where one or more cards can be searched in several ways. It is a singleline searchbar, that disables the inscreen-keyboard on enter. All the data and images are retrieved from the API and therefor not stored in the app. This opens the door to easily switch from a deck of playing cards, to other items. 
 
 The second page is a list of cards. These can be rearranged by pressing down briefly. The idea is that when the app is used for, for example, a Trading Card Game or deckbuilding game, a fixed composition of cards can be stored here. 
 
 The last page is an about page. Here you can find information about me and the project.
 
 <a name="demo"></a>
-<div align="center">![Decklist demo](demo/decklist_demo-resize.gif)</div>
+<div align="center">
+![Decklist demo](https://github.com/gewooniv/decklist/blob/main/demo/decklist_demo-resize.gif)
+</div>
 
 
 ### Built With
