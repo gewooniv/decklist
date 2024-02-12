@@ -9,7 +9,7 @@
     <a href="https://github.com/gewooniv/decklist"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/gewooniv/decklist">View Demo</a>
+    <a href="https://github.com/gewooniv/decklist/blob/main/demo/decklist_demo-resize.gif">View Demo</a>
     ·
     <a href="https://github.com/gewooniv/decklist/issues">Report Bug</a>
   </p>
@@ -72,7 +72,7 @@ The last page is an about page. Here you can find information about me and the p
 
 <a name="demo"></a>
 <div align="center">
-![Decklist demo](https://github.com/gewooniv/decklist/blob/main/demo/decklist_demo-resize.gif)
+[![Demo]][demo-url]
 </div>
 
 
@@ -126,6 +126,7 @@ Project Link: [https://github.com/gewooniv/decklist](https://github.com/gewooniv
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[demo-url]: https://github.com/gewooniv/decklist/blob/main/demo/decklist_demo-resize.gif
 [contributors-shield]: https://img.shields.io/github/contributors/gewooniv/decklist.svg?style=for-the-badge
 [contributors-url]: https://github.com/gewooniv/decklist/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/gewooniv/decklist.svg?style=for-the-badge
@@ -142,3 +143,4 @@ Project Link: [https://github.com/gewooniv/decklist](https://github.com/gewooniv
 [Android_studio-url]: https://developer.android.com/studio
 [Jetpack_compose]: https://img.shields.io/badge/JetpackCompose-20232A?style=for-the-badge&logo=android&logoColor=61DAFB
 [Jetpack_compose-url]: https://developer.android.com/jetpack/compose
+
