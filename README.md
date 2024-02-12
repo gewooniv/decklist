@@ -9,7 +9,7 @@
     <a href="https://github.com/gewooniv/decklist"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/gewooniv/decklist">View Demo</a>
+    <a href="#demo">View Demo</a>
     ·
     <a href="https://github.com/gewooniv/decklist/issues">Report Bug</a>
   </p>
@@ -69,6 +69,9 @@ The first page is an overview of all cards, with images, of a deck of playing ca
 The second page is a list of cards. These can be rearranged by pressing down briefly. The idea is that when the app is used for, for example, a Trading Card Game or deckbuilding game, a fixed composition of cards can be stored here. 
 
 The last page is an about page. Here you can find information about me and the project.
+
+<a name="demo"></a>
+<div align="center">![Decklist demo](demo/decklist_demo-resize.gif)</div>
 
 
 ### Built With
