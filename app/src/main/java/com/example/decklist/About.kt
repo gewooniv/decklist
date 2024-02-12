@@ -53,22 +53,26 @@ fun About() {
             Column(
                 modifier = Modifier.padding(8.dp)
             ) {
+                // personals
                 AboutItem(Ivo.name)
                 AboutItem(Ivo.job)
                 AboutItem(Ivo.age.toString())
 
                 Spacer(modifier = Modifier.padding(10.dp))
 
+                // project description
                 AboutItem(Ivo.description)
 
                 Spacer(modifier = Modifier.padding(10.dp))
 
+                // contact information
                 AboutItemContact(Ivo.email)
                 AboutItemContact(Ivo.linkedin)
                 AboutItemContact(Ivo.github)
 
                 Spacer(modifier = Modifier.padding(10.dp))
 
+                // copyright
                 AboutItem("Copyright " + Calendar.getInstance().get(Calendar.YEAR))
             }
 
@@ -124,7 +128,7 @@ val Ivo = Person(
         "https://media.licdn.com/dms/image/C560BAQFmuLSyL1nlPA/company-logo_100_100/0/1678231359044/github_logo?e=1715817600&v=beta&t=uvMg3pOBHnrjkQ38RVut6e2fRXRPuCBNre3_6a1r-4s",
     ),
     job = "Software Developer",
-    description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    description = "This project was created in preparation for a job interview. It was created with no previous knowledge of creating Android apps or writing in Kotlin. I enjoyed creating it in about three days and look forward to working with Android studio in the future."
 )
 
 @SuppressLint("SimpleDateFormat")

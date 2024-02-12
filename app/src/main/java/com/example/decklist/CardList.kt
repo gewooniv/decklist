@@ -35,6 +35,8 @@ import org.burnoutcrew.reorderable.reorderable
 fun CardList(cards: List<Cards>) {
     val viewModel: MainViewModel = viewModel()
     val viewstate by viewModel.cardsState
+
+    // create a reorderable state by rememberReorderableLazyListState
     val data = remember { mutableStateOf(listOfCardNames(cards).toList()) }
     val state = rememberReorderableLazyListState(onMove = { from, to ->
         data.value = data.value.toMutableList().apply {
@@ -57,9 +59,11 @@ fun CardList(cards: List<Cards>) {
                         .fillMaxSize()
                         .padding(12.dp)
                         .reorderable(state)
+                        // apply the detectReorderAfterLongPress(state) modifier to the list
                         .detectReorderAfterLongPress(state)
                 ) {
                     items(data.value, { it }) { item ->
+                        // create a ReorderableItem(state, key = ) for a keyed list
                         ReorderableItem(state, key = item) { isDragging ->
                             val elevation = animateDpAsState(if (isDragging) 16.dp else 0.dp,
                                 label = "elevation"
@@ -94,6 +98,7 @@ fun CardListItem(item : String) {
 }
 
 fun listOfCardNames(cards: List<Cards>): MutableList<String> {
+    // create a list of names from a list of cards in string format
     val listOfCardNames = mutableListOf<String>()
     for (card in cards) {
         val name: String = cardNameFormatter(card.value, card.suit, card.code)
@@ -104,6 +109,7 @@ fun listOfCardNames(cards: List<Cards>): MutableList<String> {
 }
 
 fun cardNameFormatter(cardValue: String, cardSuit: String, cardCode: String): String {
+    // return the name of a card, replace the numbers with text and capitalize first char
     var value = cardValue
     when (cardValue) {
         "0" -> value = "Zero"

@@ -83,6 +83,7 @@ fun CardItemGrid(cards: Cards) {
 }
 
 fun cardNameFormatterShort(cardValue : String, cardSuit : String, cardCode : String): String {
+    // return the name of a card with numbers and all caps
     val name: String = if (cardCode.startsWith("X")) {
         "$cardSuit $cardValue"
     } else {

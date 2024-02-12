@@ -31,7 +31,6 @@ class MainViewModel : ViewModel() {
     val isSearching = _isSearching.asStateFlow()
 
     private val _cards = MutableStateFlow(CardState().list)
-
     val cards = searchText.onEach { _isSearching.update { true } }
         .debounce(500) // add delay before other blocks are executed
         .combine(_cards) { text, cards ->
@@ -59,12 +58,12 @@ class MainViewModel : ViewModel() {
         // provides launch for suspend functions
         viewModelScope.launch {
             try {
-                // CardState
+                // fill CardState data
                 val response = cardService.getCards() // call suspend function
                 _cardState.value = _cardState.value.copy(
                     list = response.cards, loading = false, error = null
                 )
-                // CardState.list
+                // use CardState.list to fill cards, which is used for searching
                 _cards.value = _cardState.value.list
                 _cards.value += jokers // manually add jokers
 
@@ -78,7 +77,9 @@ class MainViewModel : ViewModel() {
     }
 
     data class CardState(
-        val loading: Boolean = true, var list: List<Cards> = emptyList(), val error: String? = null
+        val loading: Boolean = true,
+        var list: List<Cards> = emptyList(),
+        val error: String? = null
     )
 }
 
