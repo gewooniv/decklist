@@ -91,6 +91,7 @@ A draggable list was created using [Compose Reorderable](https://github.com/acla
 * Improve list to make items clickable and show data
 * Improve list page with sorting, filter and sets
 * Write automated tests
+* Implement a second API call: (1) retrieve a deck incl jokers -> (2) pull 54 cards
 
 See the [open issues](https://github.com/gewooniv/decklist/issues) for a full list of proposed features (and known issues).
 
