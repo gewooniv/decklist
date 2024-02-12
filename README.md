@@ -71,9 +71,9 @@ The second page is a list of cards. These can be rearranged by pressing down bri
 The last page is an about page. Here you can find information about me and the project.
 
 <a name="demo"></a>
-<div align="center">
-[![Demo]][demo-url]
-</div>
+<div align="center"><a href="https://github.com/gewooniv/decklist/blob/main/demo/decklist_demo-resize.gif">View Demo</a></div>
+
+
 
 
 ### Built With
