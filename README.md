@@ -63,13 +63,13 @@ Requirements:
 
 ## Description
 
-The app consists of three swipeable pages.
+The app consists of three pages. These can be browsed by swiping the screen or selecting one of the tabs in the top side of the screen. 
 
-The first page is an overview of all cards, with images, of a deck of playing cards. A search function has been added, where one or more cards can be searched in several ways.
+The first page is an overview of all cards, with images, of a deck of playing cards. A search function has been added, where one or more cards can be searched in several ways. All the data and images are retrieved from the API and therefor not stored in the app. This opens the door to easily switch from a deck of playing cards, to other items. 
 
-The second page is a list of cards. These can be rearranged by pressing down briefly. The idea is that when the app is used for, for example, a Trading Card Game, a fixed composition of cards can be stored here.
+The second page is a list of cards. These can be rearranged by pressing down briefly. The idea is that when the app is used for, for example, a Trading Card Game or deckbuilding game, a fixed composition of cards can be stored here. 
 
-The last page is an about page. Here you can find information about me.
+The last page is an about page. Here you can find information about me and the project.
 
 
 ### Built With
@@ -90,6 +90,7 @@ A draggable list was created using [Compose Reorderable](https://github.com/acla
 * Remove code from MainActivity without breaking the retrieval of items from the API
 * Improve list to make items clickable and show data
 * Improve list page with sorting, filter and sets
+* Write automated tests
 
 See the [open issues](https://github.com/gewooniv/decklist/issues) for a full list of proposed features (and known issues).
 
